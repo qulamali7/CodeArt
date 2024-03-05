@@ -1,0 +1,66 @@
+.edit_profile {
+    margin-top: 20px;
+
+    &_title {
+        h2 {
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 3px;
+            text-align: center;
+            padding: 20px 0px 50px 0px;
+        }
+    }
+
+    form {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 50px;
+        border-radius: 10px;
+        width: 450px;
+        margin: auto;
+
+        .input_title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+
+            .line {
+                background-color: #fa5263c2;
+                height: 2px;
+                width: 20px;
+            }
+
+            label {
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+        }
+
+        input {
+            width: 100%;
+            margin-bottom: 30px;
+            border: 1px solid #fa5263c2;
+            padding: 10px 20px;
+            border-radius: 30px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            background-color: #FA5264;
+            color: white;
+            padding: 5px 20px;
+            border-radius: 5px;
+            border: none;
+            transition: 0.5s all ease;
+            font-size: 20px;
+            &:hover {
+                background-color: #fa5263c2;
+                cursor: pointer;
+            }
+        }
+    }
+}

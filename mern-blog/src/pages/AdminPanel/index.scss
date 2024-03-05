@@ -1,0 +1,70 @@
+#adminPanel {
+    .adminPanel_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 80px;
+
+        .admin_title{
+            text-align: center;
+            font-size: 48px;
+            letter-spacing: 5px;
+            font-weight: 600;
+            color: black;
+            transition: 0.5s all ease;
+            &:hover{
+                color:#FA5264 ;
+            }
+        }
+        .adminPanel_btn{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            button{
+                padding: 8px 20px;
+                border-radius: 3px;
+                border: none;
+                background-color: #FA5264;
+                color: white;
+                cursor: pointer;
+                transition: 0.5s all ease;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                a{
+                    color: white;
+                }
+                &:hover{
+                    background-color:#fa5263c2;
+                }
+            }
+        }
+    }
+    .adminPanel_container {
+        max-width: 1140px;
+        margin: auto;
+
+        .adminpanel_content {
+            width: 100%;
+            .admin_tab{
+                margin: 30px auto;
+                width: 150px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .btn{
+                    border: 1px solid black;
+                    background: transparent;
+                    padding: 8px 20px;
+                    text-transform: uppercase;
+                    transition: 0.5s all ease;
+                    &:hover{
+                        background-color: #FA5264;
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+    }
+}

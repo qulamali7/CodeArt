@@ -1,0 +1,53 @@
+.add_tab_page {
+    &_title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &_form {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 50px;
+        border-radius: 10px;
+        width: 600px;
+        margin: auto;
+
+        .input_title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+
+            .line {
+                background-color: #fa5263c2;
+                height: 2px;
+                width: 20px;
+            }
+
+            label {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                cursor: pointer;
+            }
+        }
+
+        &_input {
+            width: 100%;
+            margin-bottom: 30px;
+            border: 1px solid #fa5263c2;
+            padding: 10px 20px;
+            border-radius: 30px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &_btn {
+            background-color: #FA5264;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+}

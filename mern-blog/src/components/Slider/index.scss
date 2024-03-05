@@ -1,0 +1,293 @@
+#slider {
+    min-height: 100vh;
+
+    .swiper {
+        height: 100%;
+        .swiper-pagination{
+            width: 60px;
+            bottom:20% ;
+            left: 50px;
+            .swiper-pagination-bullet{
+                background: transparent;
+                border: 5px solid #fff;
+            }
+            .swiper-pagination-bullet-active{
+                color: #fff !important;
+                background-color: #fff;
+            }
+        }
+        .swiper-button-next {
+            &:after {
+                font-size: 20px;
+                color: #fff;
+            }
+        }
+
+        .swiper-button-prev {
+            &:after {
+                font-size: 20px;
+                color: #fff;
+            }
+        }
+
+        .swiper-wrapper {
+            height: 100%;
+            .swiper-slide {
+                width: 100%;
+                position: relative;
+                height: 116.7vh;
+                .slide1 {
+                    position: absolute;
+                    top: 70%;
+                    left: 42%;
+                    z-index: 6;
+                    button {
+                        padding: 12px 45px;
+                        border: 2px solid #fff;
+                        background: 0 0;
+                        cursor: pointer;
+                        transition: 0.5s all ease;
+                        outline: none;
+                        &:hover {
+                            background: #fff;
+                            color: #000;
+                            cursor: pointer;
+                        }
+                        &:hover a {
+                            color: #000;
+                            cursor: pointer;
+                        }
+
+                        a {
+                            color: #fff;
+                            font-size: 14px;
+                            font-weight: 600;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+
+                        }
+                    }
+                    .scroll_arrow{
+                        width: 30px;
+                        margin:20px auto;
+                        color: #fff;
+                        transition: 0.5s all ease;
+                        &:hover{
+                            font-size: 25px;
+                        }
+                    }
+                }
+
+                .slide2 {
+                    position: absolute;
+                    top: 25%;
+                    left: 18%;
+                    width: 900px;
+                    margin: auto;
+                    text-align: center;
+
+                    h1 {
+                        font-size: 75px;
+                        color: #fff;
+                    }
+
+                    p {
+                        font-size: 22px;
+                        color: #fff;
+                    }
+                }
+
+                .slide3 {
+                    color: black;
+                    position: absolute;
+                    top: 28%;
+                    left: 15%;
+
+                    a {
+                        font-size: 11px;
+                        color: #fff;
+                        text-transform: uppercase;
+                        letter-spacing: 3px;
+                    }
+
+                    h1 {
+                        font-size: 75px;
+                        color: #fff;
+                    }
+
+                    p {
+                        font-size: 22px;
+                        color: #fff;
+                    }
+                }
+
+                video {
+                    width: 100%;
+                    // height: 100%;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) { 
+    #slider {
+        min-height: 100vh;
+    
+        .swiper {
+            height: 100%;
+            .swiper-pagination{
+                width: 60px;
+                bottom:20% ;
+                left: 50px;
+                .swiper-pagination-bullet{
+                    background: transparent;
+                    border: 5px solid #fff;
+                }
+                .swiper-pagination-bullet-active{
+                    color: #fff !important;
+                    background-color: #fff;
+                }
+            }
+            .swiper-button-next {
+                &:after {
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+    
+            .swiper-button-prev {
+                &:after {
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+    
+            .swiper-wrapper {
+                height: 100%;
+                .swiper-slide {
+                    width: 100%;
+                    position: relative;
+                    height: 116.7vh;
+                    .slide1 {
+                        position: absolute;
+                        top: 70%;
+                        left: 42%;
+                        z-index: 6;
+                        button {
+                            padding: 12px 45px;
+                            border: 2px solid #fff;
+                            background: 0 0;
+                            cursor: pointer;
+                            transition: 0.5s all ease;
+                            outline: none;
+                            &:hover {
+                                background: #fff;
+                                color: #000;
+                                cursor: pointer;
+                            }
+                            &:hover a {
+                                color: #000;
+                                cursor: pointer;
+                            }
+    
+                            a {
+                                color: #fff;
+                                font-size: 14px;
+                                font-weight: 600;
+                                letter-spacing: 2px;
+                                text-transform: uppercase;
+    
+                            }
+                        }
+                        .scroll_arrow{
+                            width: 30px;
+                            margin:20px auto;
+                            color: #fff;
+                            transition: 0.5s all ease;
+                            &:hover{
+                                font-size: 25px;
+                            }
+                        }
+                    }
+    
+                    .slide2 {
+                        position: absolute;
+                        top: 25%;
+                        left: 18%;
+                        width: 900px;
+                        margin: auto;
+                        text-align: center;
+    
+                        h1 {
+                            font-size: 75px;
+                            color: #fff;
+                        }
+    
+                        p {
+                            font-size: 22px;
+                            color: #fff;
+                        }
+                    }
+    
+                    .slide3 {
+                        color: black;
+                        position: absolute;
+                        top: 28%;
+                        left: 15%;
+    
+                        a {
+                            font-size: 11px;
+                            color: #fff;
+                            text-transform: uppercase;
+                            letter-spacing: 3px;
+                        }
+    
+                        h1 {
+                            font-size: 75px;
+                            color: #fff;
+                        }
+    
+                        p {
+                            font-size: 22px;
+                            color: #fff;
+                        }
+                    }
+    
+                    video {
+                        width: 100%;
+                        height: 100%;
+                    }
+    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+@media (min-width: 1200px) { 
+
+ }

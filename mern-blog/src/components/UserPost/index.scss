@@ -1,0 +1,197 @@
+.user_post{
+    margin-top: 20px;
+    &_title{
+        h2{
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 3px;
+            text-align: center;
+            padding: 20px 0px 50px 0px;
+        }
+    }
+    form{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 50px ;
+        border-radius: 10px;
+        width: 500px;
+        margin: auto;
+        .input_title{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            .line{
+                background-color: #fa5263c2;
+                height: 2px;
+                width: 20px;
+            }
+            label{
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+            .file_btn{
+                border: none;
+                outline: none;
+                background-color: #fa5263c2;
+                color: white;
+                border-radius: 5px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                cursor: pointer;
+                padding: 3px 10px;
+            }
+        }
+        .input_desc{
+            margin-bottom: 20px;
+        }
+        input{
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid #fa5263c2;
+            padding: 10px 20px;
+            border-radius: 30px;
+            &:focus{
+                outline: none;
+            }
+        }
+        .file_input{
+            display: none;
+        }
+        select{
+            margin-bottom: 20px;
+            padding: 5px 8px;
+            font-size: 15px;
+            background-color: #FA5264;
+            color: white;
+            text-transform: uppercase;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        
+        .submit_btn{
+            width: 100%;
+            margin-top: 20px;
+            background-color: #FA5264;
+            color: white;
+            padding: 5px 18px;
+            border-radius: 5px;
+            border: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            letter-spacing: 1px;
+            transition: 0.5s all ease;
+            &:hover{
+                background-color: #fa5263c2;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 575.98px) { 
+    .user_post{
+        &_title{
+            h2{
+                padding: 20px 0px 50px 0px;
+            }
+        }
+        form{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 50px ;
+            border-radius: 10px;
+            width: 500px;
+            margin: auto;
+            .input_title{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 10px;
+                .line{
+                    background-color: #fa5263c2;
+                    height: 2px;
+                    width: 20px;
+                }
+                label{
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                }
+                .file_btn{
+                    border: none;
+                    outline: none;
+                    background-color: #fa5263c2;
+                    color: white;
+                    border-radius: 5px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    padding: 3px 10px;
+                }
+            }
+            .input_desc{
+                margin-bottom: 20px;
+            }
+            input{
+                width: 100%;
+                margin-bottom: 20px;
+                border: 1px solid #fa5263c2;
+                padding: 10px 20px;
+                border-radius: 30px;
+                &:focus{
+                    outline: none;
+                }
+            }
+            .file_input{
+                display: none;
+            }
+            select{
+                margin-bottom: 20px;
+                padding: 5px 8px;
+                font-size: 15px;
+                background-color: #FA5264;
+                color: white;
+                text-transform: uppercase;
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+            
+            .submit_btn{
+                width: 100%;
+                margin-top: 20px;
+                background-color: #FA5264;
+                color: white;
+                padding: 5px 18px;
+                border-radius: 5px;
+                border: none;
+                text-transform: uppercase;
+                font-size: 20px;
+                letter-spacing: 1px;
+                transition: 0.5s all ease;
+                &:hover{
+                    background-color: #fa5263c2;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+}
+
+@media (min-width: 1200px) { 
+   
+}
